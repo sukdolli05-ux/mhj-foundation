@@ -1,0 +1,25 @@
+MHJ FOUNDATION v14 업데이트
+
+[보존 원칙]
+- 기존 폰트 변경 없음
+- 기존 화면 및 API 구조 유지
+- 기존 기능 삭제 없음
+- v13.5 기준 증분 업데이트
+
+[업데이트]
+1. Rewards 기간 필터에서 30 Days 제거 (7 Days / All 유지)
+2. 데일리 수당 50% USDT + 50% MHJ Coin/Medical Credit
+3. 최소 출금액 100 USDT (프론트 버튼 및 백엔드 검증)
+4. 승인일 수당 없음, 승인 다음 KST 날짜부터 매일 1.5%
+5. 입금 건별 독립 스테이킹 사이클
+   - 예: 1,000 USDT 승인 → 최대 500 USDT 상당 수당 후 해당 사이클 종료
+   - 재입금 시 새 사이클 추가 및 누적 스테이킹 원금 증가
+6. Treatment Progress
+   - 누적 스테이킹 원금 + MHJ Medical Credit
+   - 목표액, 남은 금액, 진행률, Treatment Available 표시
+7. 기존 글꼴과 전체 디자인 톤 유지, 진행 카드와 미세 애니메이션만 추가
+
+[검증]
+- Python 문법 검사 완료
+- 신규 DB 마이그레이션 및 스테이킹 정산 로직 테스트 완료
+- 프론트 빌드는 실행 환경에서 npm install 후 npm run build 필요

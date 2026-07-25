@@ -1,0 +1,11 @@
+MHJ Foundation v13.1 Frontend Hotfix
+
+수정 내용:
+- App.jsx 263행에 잘못 들어간 문자 그대로의 \n 제거
+- walletData state를 정상적인 다음 줄 JSX 문법으로 분리
+- 백엔드 Python 문법 검사 통과
+
+실행:
+1. 기존 frontend 폴더를 이 패키지의 frontend 폴더로 교체
+2. START_FRONTEND.bat 실행
+3. 브라우저에서 http://localhost:5173 접속

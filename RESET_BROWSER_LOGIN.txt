@@ -1,0 +1,7 @@
+브라우저에 예전 토큰이 남아 있으면 F12 → Console에서 아래 한 줄을 실행하세요.
+
+localStorage.removeItem("mhj_admin_token"); localStorage.removeItem("mhj_user_token"); location.reload();
+
+관리자:
+admin@mhjfoundation.com
+MHJ-Admin-2026!

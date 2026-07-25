@@ -1,0 +1,12 @@
+MHJ Foundation v13.4 Rewards UI
+
+- 기존 관리자/회원/백엔드 구조 유지
+- Rewards 화면 디자인 확장
+- 7일/30일/전체 일별 적립 그래프
+- 실제 rewards 정산 데이터를 날짜별 집계
+- 4개 보상 카드 색상 분리
+- My Programs 4개 카드 배치 및 겹침 수정
+- 프로그램 페이지 버튼/태그 겹침 수정
+- Add 버튼은 프로그램 화면으로 연결
+
+실행: START_BACKEND.bat -> START_FRONTEND.bat

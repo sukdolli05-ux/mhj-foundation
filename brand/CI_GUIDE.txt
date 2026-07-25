@@ -1,0 +1,40 @@
+MHJ FOUNDATION — TOKEN MARK / WEB CI GUIDE
+
+Primary mark:
+- Symbol: MHJ monogram with DNA helix inside the H
+- Meaning: Medical science, regeneration, connection and global circulation
+- Primary use: token ticker, exchange listing, wallet icon, web header, favicon, app icon
+- Ticker: MHJ
+
+Primary colors:
+- Deep Navy: #06172D
+- Medical Navy: #0B2C53
+- Foundation Gold: #E4B63D
+- Highlight Gold: #FFF1A8
+- White: #FFFFFF
+
+Files:
+- MHJ_TOKEN_MARK.svg       transparent/scalable symbol
+- MHJ_WORDMARK_DARK.svg    horizontal foundation wordmark
+- frontend/src/assets/mhj-token-mark.svg
+- frontend/src/assets/mhj-wordmark.svg
+
+Recommended usage:
+- 32–64 px: ticker/icon only
+- 80 px and above: full symbol
+- Header/footer: symbol + MHJ FOUNDATION wordmark
+- Keep clear space equal to 20% of the mark width
+- Do not stretch, recolor randomly or place on low-contrast backgrounds
+
+Platform policy encoded in v7:
+- ExVar: 3,500 USDT / cost 1,000
+- NK Cell: 10,000 USDT / cost 2,200
+- ST Cell: 15,000 USDT / cost 4,000
+- Daily reward: 1.5%
+- Reward split: 50% USDT + 50% MHJ Coin → Medical Credit
+- Reward cap: 150%
+- Referral activation: 2 active direct members
+- One-time referral: L1 5% / L2 3% / L3 2%
+- Daily team bonus: based on downline daily reward
+- Settlement close: every day 00:00 KST
+- Treatment booking opens: 2026-10-01

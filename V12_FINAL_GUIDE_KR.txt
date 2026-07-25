@@ -1,0 +1,36 @@
+MHJ FOUNDATION v12 FINAL
+
+지원 언어:
+- 한국어
+- English
+- 日本語
+- 简体中文
+
+회원 기능:
+- Dashboard
+- Programs: ExVAR / NK Cell / Amniotic Stem Cell / RKNK-100
+- Medical Credit
+- Treatments
+- Rewards: Daily / Referral / Team / USDT / MHJ Coin
+- Referral: L1 5% / L2 3% / L3 2%, 직추천 2명 조건
+
+보상:
+- 일일 1.5%
+- USDT 50% + MHJ Coin 50%
+- MHJ Coin 회계분은 Medical Credit 1:1 자동 적립
+- 최대 150%
+
+RKNK-100:
+- 소개 및 상담 신청이 기본입니다.
+- 가격이 확정되면 backend 실행 전에 환경변수 RKNK100_PRICE와 RKNK100_COST를 설정하면 유료 패키지로 자동 전환됩니다.
+
+실행:
+1) 기존 서버 창 모두 종료
+2) START_BACKEND.bat
+3) START_FRONTEND.bat
+4) 회원 http://localhost:5173
+5) 관리자 http://localhost:5173/admin/login
+
+관리자:
+admin@mhjfoundation.com
+MHJ-Admin-2026!

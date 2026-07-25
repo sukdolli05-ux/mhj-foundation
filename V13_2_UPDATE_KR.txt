@@ -1,0 +1,12 @@
+MHJ Foundation v13.2 관리자 회원관리 복구판
+
+기존 ERP 디자인과 메뉴 구조를 유지하면서 아래 기능만 추가했습니다.
+- Members 전체 회원 목록/검색/상세/활성·정지
+- Programs 회원별 프로그램 현황
+- Rewards 전체 보상 원장
+- Referral 조직 및 보너스 현황
+- Wallet / Medical Credit 회원별 잔액
+- 회원 상세에서 프로그램·보상·추천조직 확인
+- Excel Members 시트 추가
+
+기존 Deposits / Settlements / Withdrawals / Treatments / Ledger API 및 화면은 삭제하거나 교체하지 않았습니다.

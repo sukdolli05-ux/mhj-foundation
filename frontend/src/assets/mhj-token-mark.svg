@@ -1,0 +1,37 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="gold" x1="80" y1="48" x2="432" y2="458" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#FFF1A8"/>
+    <stop offset="0.28" stop-color="#E9BC4D"/>
+    <stop offset="0.62" stop-color="#B97912"/>
+    <stop offset="1" stop-color="#F2D779"/>
+  </linearGradient>
+  <linearGradient id="navy" x1="55" y1="34" x2="456" y2="476" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#06172D"/>
+    <stop offset="1" stop-color="#0B2C53"/>
+  </linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#001225" flood-opacity=".42"/>
+  </filter>
+</defs>
+
+<circle cx="256" cy="256" r="230" fill="url(#navy)" filter="url(#shadow)"/>
+<circle cx="256" cy="256" r="216" stroke="url(#gold)" stroke-width="8"/>
+<path d="M96 340C80 299 80 249 92 205C113 128 177 76 251 68" stroke="url(#gold)" stroke-width="13" stroke-linecap="round"/>
+<path d="M411 169C431 215 435 270 417 321C393 389 333 438 260 445" stroke="url(#gold)" stroke-width="13" stroke-linecap="round"/>
+
+<!-- M -->
+<path d="M124 335V174L190 263L256 174V335" stroke="url(#gold)" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- H rails -->
+<path d="M286 177V335M368 177V335M286 255H368" stroke="url(#gold)" stroke-width="20" stroke-linecap="round"/>
+<!-- DNA helix inside H -->
+<path d="M317 190C356 213 356 235 317 257C278 279 278 301 317 324" stroke="#F8E5A0" stroke-width="9" stroke-linecap="round"/>
+<path d="M337 190C298 213 298 235 337 257C376 279 376 301 337 324" stroke="#D89D2E" stroke-width="9" stroke-linecap="round"/>
+<path d="M309 208H345M307 238H347M307 276H347M309 307H345" stroke="#F8E5A0" stroke-width="6" stroke-linecap="round"/>
+
+<!-- J -->
+<path d="M393 177V291C393 333 367 353 330 353" stroke="url(#gold)" stroke-width="24" stroke-linecap="round"/>
+
+<!-- star -->
+<path d="M405 89L414 111L436 120L414 129L405 151L396 129L374 120L396 111L405 89Z" fill="url(#gold)"/>
+</svg>

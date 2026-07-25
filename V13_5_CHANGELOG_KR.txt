@@ -1,0 +1,12 @@
+MHJ Foundation v13.5
+
+- Rewards/ERP 기존 코드는 유지
+- Wallet 화면을 Rewards 스타일의 컬러 카드 디자인으로 확장
+- 출금 가능/예약/누적 수익을 구분 표시
+- 개인 출금 지갑 저장 및 복사
+- 플랫폼 입금 지갑 복사
+- 출금 신청 및 출금 내역 상태 표시
+- Referral 전체 URL 복사 버튼 추가
+- Referral 코드 복사 버튼 추가
+- ?ref=추천코드 링크로 접속하면 회원가입 Referral code 자동 입력
+- Clipboard API 미지원 환경을 위한 복사 대체 방식 포함
